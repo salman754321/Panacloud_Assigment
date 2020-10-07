@@ -42,4 +42,4 @@ jobs:
         run: npm install -g surge
     
       - name: deploying on surge
-        run: surge ./build  http://Panacloud_Assigment.surge.sh/ --token ${{secrets.SURGE_TOKEN2}}
+        run: surge ./build  http://Panacloud_Assigment.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
